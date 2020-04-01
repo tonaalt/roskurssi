@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='arena2'>
+  <model name='areena2'>
     <link name='link_1'>
       <pose frame=''>-0 -0 0 0 -0 0</pose>
       <inertial>
@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/auv/roskurssi_ws/src/areena2.dae</uri>
+            <uri>model://areena2/areena2.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -43,7 +43,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/auv/roskurssi_ws/src/areena2.dae</uri>
+            <uri>model://areena2/areena2.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
